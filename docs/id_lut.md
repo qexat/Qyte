@@ -1,4 +1,4 @@
-# IDentifier Lookup Table
+# Identifier Lookup Table
 
 ## Elements
 
@@ -8,7 +8,7 @@ The table ends when a `NUL` key is encountered.
 
 Size: 8 bytes.
 
-The first four bytes must be `IDLT` (`01001001 01000100 01001100 01010100`).
+The first four bytes must be `ILUT` (`01001001 01001100 01010101 01010100`).
 
 The next byte is cut in parts:
 
@@ -32,7 +32,7 @@ Let an IDLT with `x`, `hello` and `pow2` as registered identifiers.
 Raw:
 
 ```rs
-01001001 01000100 01001100 01010100
+01001001 01001100 01010101 01010100
 00000000 00000000 00000000 00000000
 00000001 01111000 00000000 00000010
 01101000 01100101 01101100 01101100
@@ -45,7 +45,7 @@ Commented:
 
 ```rs
 // Header
-01001001 01000100 01001100 01010100
+01001001 01001100 01010101 01010100
 00000000 00000000 00000000 00000000
 // Contents
 00000001 01111000 00000000 00000010
@@ -60,7 +60,7 @@ Decomposed:
 
 ```rs
 // Header
-01001001 01000100 01001100 01010100  // IDLT
+01001001 01001100 01010101 01010100  // ILUT
 0000                                 // Key size (1 byte)
 0000                                 // ID char size (1 byte)
 00000000 00000000 00000000           // ID max size (none)

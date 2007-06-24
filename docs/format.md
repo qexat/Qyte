@@ -41,9 +41,9 @@ Example: `v7.2.28`
 -   encoding
 -   // TODO
 
-### IDLT
+### Identifier Lookup Table
 
-See the dedicated [resource](./idlt.md).
+See the dedicated [resource](./id_lut.md).
 
 ## Payload
 
