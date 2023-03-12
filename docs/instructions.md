@@ -58,3 +58,35 @@ In short, bit is set to `0` if the value is from an identifier, and to `1` if it
 | `POW2`    | `0b1011`  | Equivalent to `n ** 2`       |
 | `NEG`     | `0b1100`  | Equivalent to `0 - n`        |
 | `SQROOT`  | `0b1111`  | Equivalent to `n ** (1 / 2)` |
+
+## Logic
+
+### Function code
+
+-   First digit: binary (0) or unary (1)
+-   Second digit: setop (0) or shift (1)
+-   Third & fourth digit: ID
+
+### Operations
+
+| Operation | FUNC CODE | Comment   |
+| --------- | --------- | --------- |
+| `AND`     | `0b0000`  | `n & p`   |
+| `OR`      | `0b0001`  | `n \| p`  |
+| `XOR`     | `0b0010`  | `n ^ p`   |
+| `SLL`     | `0b0100`  | `n << p`  |
+| `SRL`     | `0b0101`  | `n >>> p` |
+| `SRA`     | `0b0110`  | `n >> p`  |
+| `NEG`     | `0b1000`  | `~n`      |
+
+## Load/Store
+
+### Function code
+
+// TODO
+
+## Branching
+
+### Function code
+
+// TODO
