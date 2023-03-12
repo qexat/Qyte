@@ -9,7 +9,7 @@ Form: `[OP CODE] [FUNC CODE] [DEST ID KEY] [ARGS CODE] [ARGS KEYS]`
 | Load/Store | `0b10`  |
 | Branching  | `0b11`  |
 
-> Pseudo instructions fall into their respective categories -- they do not have their own.
+> The pseudo-instructions fall into one of the four categories that suit the most -- they do not have their own.
 
 | Operands Kind  | ARGS CODE |
 | -------------- | --------- |
