@@ -2,6 +2,6 @@
 
 ## Current
 
--   [Bytecode file format](./docs/format.md)
--   [Identifier Lookup Table](./docs/idlt.md)
--   [Instructions](./docs/instructions.md)
+-   [Bytecode file format](./format.md)
+-   [Identifier Lookup Table](./idlt.md)
+-   [Instructions](./instructions.md)
