@@ -20,7 +20,7 @@ Setting them to 0 discards the limit ; see the [example](#example).
 
 ### Entry
 
--   Key: its size is set above. In any case, the key `0` is always reserved and cannot be used.
+-   Key: its size is set above. In any case, the `NUL` key (`0`) is always reserved and cannot be used.
 -   ID: variable size. Implementation detail: a maximum size might be set up -- if so, it must be at least 256 bytes.
 
 The end of the entry is marked by `NUL` bytes ; their number depends on the ID character size that has been set above.
