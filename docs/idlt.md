@@ -12,7 +12,7 @@ The first four bytes must be `IDLT` (`01001001 01000100 01001100 01010100`).
 
 The next byte is cut in parts:
 
--   The first four bits are `key size + 1` in bytes.
+-   The first four bits are `key size - 1` in bytes.
 -   The last four bits are `ID character size - 1` in bytes ; setting it to `>0` allows for larger sets than ASCII.
 
 The last three bytes are the result of the following formula: `maximum identifier size - 255`.\
